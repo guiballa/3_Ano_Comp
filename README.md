@@ -1,2 +1,3 @@
-# Comp_Maua_3ano
- Repositorio para todas as materias
+# 3 Ano Comp
+
+ Repositório para todas as matérias do terceiro ano de Engenharia de Computação no Instituto Mauá de Tecnologia (IMT).
