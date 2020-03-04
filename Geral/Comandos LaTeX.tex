@@ -1,0 +1,168 @@
+% PACKAGES ======================================
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{shortvrb}
+
+
+% TITLE ==========================================
+\title{\textbf{Primeiro Projeto}}
+\author{Vítor Martin Simoni}
+%\date{20/02/2020}
+
+\begin{document}
+
+\maketitle
+
+\pagebreak
+
+
+% SUMMARY TABLES =================================
+\tableofcontents
+\listoffigures
+\listoftables
+
+\pagebreak
+
+
+% SECTION =========================================
+This is the text for outside any seciton.
+
+\section{Section}
+Para usar SECTION sem numeração, usar comando \verb \section* .
+
+\subsection{Subsection}
+This is the text for the sub-section.
+
+\subsubsection{Sub-sub-section}
+This is the text for the sub-sub-section.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=.5]{fig1}
+    \caption{Esta é minha primeira figura.}
+    \label{fig:my_label}
+\end{figure}
+
+
+% VARIAVEIS =======================================
+\section{Declarando Variáveis}
+
+Para declarar novas variáveis, utilize o seguinte comando:
+
+\begin{verbatim}
+    \newcommand\name_of_variable{value_of_variable}
+\end{verbatim}
+
+\noindent
+Para utilizar a variável, utilize o seguinte comando:
+
+\begin{verbatim}
+    \name_of_variable
+\end{verbatim}
+
+\newcommand\nome{banana}
+\newcommand\valor{5}
+
+\pagebreak
+\noindent
+Testando novas variáveis:
+\begin{quote}
+
+
+\begin{verbatim}
+Uma var possui o texto ``\nome'' e outra, o valor \valor .
+\end{verbatim}
+\smallskip
+
+    Uma var possui o texto ``\nome'' e outra, o valor \valor .
+\end{quote}
+
+\noindent
+Utilize \verb \verb|caracter|  para desconsiderar a função de caracteres especiais, como \verb \ , \verb|{}| e até \verb|e s  p   a    ç     o      s|.
+
+\medskip
+\noindent
+Para ainda mais detalhes, utilize \verb|\verb*| (com asterisco) para mostrar, inclusive, \verb*|e s p a ç o s|.
+
+% OPERADORES LOGICOS ==============================
+\section{Operadores Lógicos}
+Use o cifrão para indicar que é uma equação:
+\medskip % \smallskip ou \medskip ou \bigskip
+
+\begin{tabular}[h!]{l}
+    $A \wedge B$\\
+    $A \vee B$\\
+    $\neg A$\\
+    $A \rightarrow B$\\
+    $A \leftrightarrow B$\\
+\end{tabular}
+
+\subsection{Algumas Fórmulas Lógicas}
+Use \textit{\textbf{align*}} (com asterisco) para não mostrar a numeração das linhas automaticamente.
+%
+\begin{align*}
+    1. \hspace{10pt}  &   E \rightarrow Q         &   \text{(hip.)}                             \\
+    2. \hspace{10pt}  &   E \vee B                &   \text{(hip.)}                           \\
+    3. \hspace{10pt}  &   \neg Q                  &   \text{(hip.)}                           \\
+    4. \hspace{10pt}  &   \neg E                  &   \text{(1, 3 } \rightarrow \text{ mt)}   \\
+    5. \hspace{10pt}  &   \neg E \rightarrow B    &   \text{(2 } \rightarrow \text{ imp)}     \\
+    6. \hspace{10pt}  &   B \qed                  &   \text{(4, 5 } \rightarrow \text{ mp)}   
+\end{align*}
+
+
+% TABELA ==========================================
+\section{Tabela}
+
+Para bold em equações (\verb|$$|), utilizar comando \verb|\mathbf{}|
+
+\verb|$\mathbf{x + y + z = 0}$|
+
+$\mathbf{x + y + z = 0}$
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{||r l||}
+        \hline
+        \textbf{Coluna} 1 & \textbf{Coluna 2} \\
+        \hline
+        \hline
+        linha 1 & abc \\
+        \hline
+        linha 2 & def \\
+        \hline
+    \end{tabular}
+    \caption{Comandos do Latex}
+    \label{tab:my_label}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% BIBLIOGRAFIA ====================================
+\bibliographystyle{plain}
+\bibliography{References}
+
+
+\end{document}
