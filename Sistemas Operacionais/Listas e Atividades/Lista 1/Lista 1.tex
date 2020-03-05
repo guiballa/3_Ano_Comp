@@ -50,8 +50,8 @@
 \section*{4. \large As instruções relacionadas ao acesso a dispositivos de E/S são geralmente instruções privilegiadas, isto é, elas podem ser executadas no modo kernel, mas não no modo de usuário. Dê uma razão pela qual essas instruções são privilegiadas.}
 
 \medskip
-\noindent
-\textbf{R:} Edicao do Rod.
+\noindent 
+\textbf{R:} Uma razão para que as instruções de acesso a dispositivos E/S sejam geralmente privilegiadas é para preservar uma única forma de acesso aos hardwares. Antigamente, existiam diversas soluções para os mesmos comandos, e elas nem sempre funcionavam da forma esperada; com a introdução de apenas um comando oficial, no kernel, que funciona, a mecessidade de programação de hardware pelo usuário é inexistenet. Sendo assim, as instruções de acesso são consideradas privilegiadas.
 
 % 5 ===========================================================
 \section*{5. \large Qual é a diferença entre o modo kernel e o modo de usuário? Explique como ter dois distintos modos ajuda na criação de um sistema operacional.}
@@ -82,10 +82,10 @@
 \textbf{R:} Parte dos tratadores de interrupção são escritos em linguagem de máquina porque ações como salvar os registradores e alterar o ponteiro de pilha não podem ser expressas em linguagens de alto nível, assim elas são implementadas por uma pequena rotina em linguagem assembly.
 
 % 9 ===========================================================
-\section*{9. \large Quando uma interrupção ou uma chamada do sistema transfere o controle para o sistema operacional, um uma área de pilha do kernel, separada do processo que foi interrompido, é geralmente usada. Por quê?}
+\section*{9. \large Quando uma interrupção ou uma chamada do sistema transfere o controle para o sistema operacional, uma área de pilha do kernel, separada do processo que foi interrompido, é geralmente usada. Por quê?}
 
 \medskip
 \noindent
-\textbf{R: }
+\textbf{R: } Uma área separada no kernel é utilizada para guardar o endereço do local de retorno no código; quando a chamada de função é finalizada, o local de retorno do código, armazenado no kernel (maior proteção), é acessado.
 
 \end{document}
