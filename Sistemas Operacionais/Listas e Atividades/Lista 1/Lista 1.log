@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.5)  5 MAR 2020 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.5)  5 MAR 2020 13:11
 entering extended mode
 **"c:/Repositorios/3_Ano_Comp/Sistemas Operacionais/Listas e Atividades/Lista 1/Lista 1.tex"
 ("c:/Repositorios/3_Ano_Comp/Sistemas Operacionais/Listas e Atividades/Lista 1/Lista 1.tex"
@@ -187,19 +187,19 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
 ) [1
 
-{C:/Users/rodol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] ("c:/Repositorios\3_Ano_Comp\Sistemas Operacionais\Listas e Atividades\Lista 1\Lista 1.aux") ) 
+{C:/Users/rodol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] ("c:/Repositorios\3_Ano_Comp\Sistemas Operacionais\Listas e Atividades\Lista 1\Lista 1.aux") ) 
 Here is how much of TeX's memory you used:
- 3246 strings out of 481556
- 47458 string characters out of 2913870
+ 3247 strings out of 481556
+ 47466 string characters out of 2913870
  298543 words of memory out of 3000000
- 18454 multiletter control sequences out of 15000+200000
+ 18455 multiletter control sequences out of 15000+200000
  538028 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,13n,29p,485b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,13n,29p,611b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rodol/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on "c:/Repositorios\3_Ano_Comp\Sistemas Operacionais\Listas e Atividades\Lista 1\Lista 1.pdf" (3 pages, 84965 bytes).
+Output written on "c:/Repositorios\3_Ano_Comp\Sistemas Operacionais\Listas e Atividades\Lista 1\Lista 1.pdf" (4 pages, 86613 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
