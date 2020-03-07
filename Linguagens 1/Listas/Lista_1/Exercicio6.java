@@ -6,26 +6,20 @@ public class Exercicio6 {
         int ini, fim;
         int i;
         int soma = 0; 
-        int mult = 0;
+        int mult = 1;
 
         System.out.println("Digite o primeiro e o ultimo numero de uma sequencia: ");
         ini = scanner.nextInt();
         fim = scanner.nextInt();
+        
+        System.out.println("Numero inicial: " + ini + "\nNumero final: " + fim);
 
-        //Somatorio
-
-        for(i = ini; i < fim; i++){
-            soma = soma +  (ini + (ini+1));
-            ini = ini+1;
+        for(i=ini ; i<=fim ; i++){
+            soma = soma + i;
+            mult = mult * i;
         }
+        
         System.out.println("o somatorio eh: " + soma);
-
-        //Multiplicacao
-
-        for (i = ini; i < fim; i++){
-            mult = mult + (ini*(ini+1));
-            ini = ini+1;
-        }
         System.out.println("A mult entre todos os valores eh: " + mult);
     }
     
