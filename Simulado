@@ -1,0 +1,19 @@
+1. Seu projeto tem pelo menos um componente React que utiliza uma função criadora de ação? Se não tiver, responda "não". Se tiver, diga o nome de um e explique a forma como esse componente utiliza a função criadora de ação.
+
+Sim. O componente CashbackForm utiliza a função criadora de ação durante o dispatch do pedido de cashback na mudança do estado.
+** CAIXA
+
+
+2. Quais "fatias" de estado foram necessárias para implementar o componente React "Caixa"? Explique a forma como cada uma foi utilizada.
+
+As fatias de estado usadas em Caixa são os payloads das ações pedidosCartao e pedidosCashback. Essas fatias foram iteradas para obter a soma de cada valor, o qual foi, no fim, subtraido e retornado.
+
+
+3. Na função "mapStateToProps", o componente React CartaoDeCreditoForm não extrai nenhuma fatia de estado explicitamente. Veja:
+
+const mapStateToProps= (state) => (state)
+
+Explique a razão de ser da função mapStateToProps e a razão pela qual o componente React CartaoDeCreditoForm dispensa o uso de fatias de estado.
+
+
+A função mapStateToProps é usada para mapear os dados de um estado para as informações que o componente precisa. Em CartaoDeCreditoForm, por se tratar de um form, o componente já possui todas as informações necessárias, o que dispensa o uso da fatia de estado. Nesse caso, ao invés de usar informações do estado, ele usa uma função criadora de ação para atualizar o estado.
