@@ -17,3 +17,13 @@ Explique a razão de ser da função mapStateToProps e a razão pela qual o comp
 
 
 A função mapStateToProps é usada para mapear os dados de um estado para as informações que o componente precisa. Em CartaoDeCreditoForm, por se tratar de um form, o componente já possui todas as informações necessárias, o que dispensa o uso da fatia de estado. Nesse caso, ao invés de usar informações do estado, ele usa uma função criadora de ação para atualizar o estado.
+
+O nome da função criadora de ação usada no componente "CartaoCreditoForm" é pedirCartao;
+
+Esse componente vai chamar desta função no momento que tentar realizar um dispatch, também vai utilizar na hora de realizar o export default connect, pois nessa hora, vai passar tanto o mapStateToProps, quanto a função criadora de ação {pedirCartao
+
+Eu e meu grupo resolvemos o problema de percorrer cada uma das fatias do estado utilizando a função reduce, assim como estava comentado pelo professor na entrega do código, para tal, declaramos uma arrow function que iria receber dois valores e soma-los, após isso, fizemos uma chamada da função reduce, passando tanto essa arrow function quanto o array de dados de crédito. 
+
+As fatias de estado que usamos foram os payloads das ações criadas anteriormente chamadas de pedirCartao e pedirCashback, com elas, podemos utilizar do State para chamar essas fatias e com o array resultante, podemos chamar a função reduce, para realizar toda a parte de iteração que vai realizar os cálculos. 
+
+Importante também notar que para calcularmos corretamente, foi necessário também converter os valores em floats, pois contrário, iriamos sofrer com uma soma ou subtração de Strings.
